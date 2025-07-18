@@ -1,0 +1,106 @@
+{
+    "brand": {
+      "name": "Breitenstein Consulting",
+      "logo": {
+        "description": "Das Logo besteht aus dem Schriftzug 'BREITENSTEIN' und der Bildmarke 'Skyline'.",
+        "usage": "Feste Proportionen, keine Farbänderungen, nur definierte Varianten verwenden.",
+        "variants": {
+          "primary": [
+            "BSC_Logo_Square_Sky",
+            "BSC_Logo_Square_Earth",
+            "BSC_Logo_Square_Rock",
+            "BSC_Logo_Square_Forest"
+          ],
+          "bw_and_transparent": [
+            "BSC_Logo_Square_b&w",
+            "BSC_Logo_Square_Transparent"
+          ],
+          "secondary_landscape": [
+            "BSC_Logo_Landscape_Sky",
+            "BSC_Logo_Landscape_b&w",
+            "BSC_Logo_Landscape_Rock",
+            "BSC_Logo_Landscape_Earth",
+            "BSC_Logo_Landscape_transparent",
+            "BSC_Logo_Landscape_Forest"
+          ],
+          "symbol_only": "Skyline"
+        },
+        "protection_zone": "Abstand zu anderen Elementen muss mindestens ein Viertel der Markenzeichenhöhe betragen."
+      }
+    },
+    "colors": {
+      "primary": {
+        "Earth": { "RGB": "140,130,112", "CMYK": "0,7,20,45" },
+        "Rock": { "RGB": "115,115,115", "CMYK": "0,0,0,55" },
+        "Sky": { "RGB": "163,188,191", "CMYK": "15,0,0,25" },
+        "Forest": { "RGB": "120,150,98", "CMYK": "45,15,60,10" }
+      },
+      "secondary": {
+        "Solid": {
+          "usage": "Schriftfarbe bei ppt, Email, Website-Menüleiste, bei Hintergrund in Primärfarbe",
+          "RGB": "38,38,38"
+        },
+        "Cloud": {
+          "usage": "Schriftfarbe auf Primärfarben-Hintergrund oder Highlightkasten in ppt"
+        }
+      }
+    },
+    "typography": {
+      "primary_font": {
+        "name": "TeX Gyre Adventor",
+        "usage": "Print, PPT, Word, Excel"
+      },
+      "email_font": {
+        "name": "Century Gothic",
+        "usage": "Emails"
+      }
+    },
+    "designs": {
+      "website": {
+        "text": {
+          "font": "Century Gothic",
+          "size": "10pt",
+          "color": "Solid (38,38,38)"
+        },
+        "headline": {
+          "size": "12pt",
+          "case": "Capitals",
+          "highlight_colour": "Choice of Earth, Rock, Sky, Forest"
+        },
+        "address": {
+          "font": "Century Gothic",
+          "size": "10pt",
+          "color": "Solid (38,38,38)"
+        }
+      },
+      "email": {
+        "text_signature": {
+          "highlight_colour": "Choice of Earth, Rock, Sky or Forest (same as signature)",
+          "content": "Change is our Business! / Alles neu macht der Mai"
+        },
+        "footer": {
+          "highlight_colour": "Same as signature",
+          "link": "http://www.breitenstein-consulting.com/"
+        }
+      },
+      "powerpoint": {
+        "availability": "4 Colour Versions",
+        "details": "See separate BSC-ppt_template"
+      },
+      "word": {
+        "availability": "4 Colour Versions",
+        "details": "See separate BSC-ppt_template"
+      },
+      "print": {
+        "business_cards": {
+          "layout_variants": ["Sky", "Rock", "Earth", "Forest"],
+          "format": "Digital only"
+        },
+        "letterhead": {
+          "layout_variants": ["Sky", "Rock", "Earth", "Forest"],
+          "format": "Digital only"
+        }
+      }
+    }
+  }
+  
